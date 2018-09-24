@@ -1,0 +1,349 @@
+/*头部样式已抽取*/
+@import url("header.css");
+/*尾部样式已抽取*/
+@import url("footer.css");
+
+
+/*分类菜单和轮播*/
+/*分类菜单*/
+#categorytBanner #classify{
+	float: left;
+	width: 200px;
+	background-color: #f3f3f3;
+}
+#categorytBanner #classify .menu>li{
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+}
+#categorytBanner #classify .menu div.current{
+	border: 1px solid #FF6600;
+	border-right: none;
+	background-color: #FFFFFF;
+	color: #FF6600;
+}
+#categorytBanner #classify .menu div.current a{
+	color: #FF6600;
+}
+#categorytBanner #classify .menu>li div{
+	text-indent: 20px;
+	position: relative;
+	z-index: 1000;
+}
+#categorytBanner #classify .menu{
+	position: relative;
+}
+#categorytBanner #classify .menu li .submenu{
+	width: 520px;
+	min-height: 388px;
+	font-size: 12px;
+	display: none;
+	background-color: #FFFFFF;
+	border: 1px solid #FF6600;	
+	position: absolute;
+	top: 0;
+	left: 199px;
+	z-index: 999;
+	padding: 2px 70px 30px 33px;
+}
+/*二级菜单内容*/
+#classify .menu li .submenu li:first-child a{
+	font-size: 13px;
+	margin-right: 34px;
+}
+#classify .menu li .submenu li>h4{
+	height: 26px;
+	font-size: 14px;
+	color: #FF6600;
+	border-bottom: 2px solid #e6e6e6;
+}
+#classify .menu li .submenu li>a{
+	display: inline-block;
+	line-height: 1px;
+	margin-right: 8px;
+}
+/*轮播图*/
+#categorytBanner #banner{
+	width: 1000px;
+	height: 420px;
+}
+/*今日推荐*/
+#recommend{
+	height: 532px;
+	/*border: 1px solid #ccc;*/
+}
+#recommend div span{
+	display: inline-block;
+	text-indent: 16px;
+}
+#recommend .gds-conts{
+	width: 1184px;
+	margin-left: 7px;
+}
+#recommend .gds-conts li{
+	float: left;
+	width: 195px;
+	height: 246px;
+	border-left: 2px solid #FF6600;
+	border-bottom: 2px solid #FF6600;
+}
+#recommend .gds-conts li:nth-of-type(6n){
+	border-right: 2px solid #FF6600;
+}
+#recommend .gds-conts li>div {
+	position: relative;
+	left: 37px;
+}
+#recommend .gds-conts>li span img{
+	position: relative;
+	left: -2px;
+}
+#recommend .gds-conts li p{
+	margin-left: 7px;
+}
+
+#recommend .gds-conts li p i{
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 36px;
+}
+#recommend .gds-conts li p>a:hover{
+	color: #f40;
+}
+/*电子书*/
+/*左侧部分*/
+/*标题*/
+#ebook #leftCon{
+	width: 904px;
+	height: 220px;
+	margin-right: 10px;
+}
+/*内容右*/
+#ebook #leftCon .subRight ul{
+	width: 664px;
+	height: 436px;
+	border-right: 2px solid #ccc;
+}
+#ebook #leftCon .subRight>ul>li{
+	float: left;
+	width: 164px;
+	height: 216px;
+	border-left: 2px solid #ccc;
+	border-bottom: 2px solid #ccc;
+}
+#ebook #leftCon .subRight ul li:nth-of-type(1){
+	width: 330px;
+}
+#ebook #leftCon .subRight ul li p{	
+	text-indent: 4px;
+}
+#ebook #leftCon .subRight ul li p:nth-of-type(3){
+	text-indent: 0px;
+}
+#ebook #leftCon .subRight ul li p:nth-of-type(1){
+	margin-top: 15px;
+}
+#ebook #leftCon .subRight ul li p:nth-of-type(4){
+	margin-top: 15px;
+}
+/*隐藏tabcontent*/
+#ebook #leftCon .subRight .tabContent{
+	display: none;
+}
+
+/*右边部分 书籍排行榜*/
+#ebook #rightRank{
+	width: 280px;
+	height: 438px;
+	margin-top: 31px;
+	border: 2px solid #e6e6e6;
+}
+#ebook #rightRank>div{
+	color: #939393;
+}
+#ebook #rightRank ul li:after{
+	height: 0;
+	width: 0;
+	content: "";
+	display: block;
+	clear: both;
+}
+#ebook #rightRank ul li .rankNum{
+	float: left;
+	width: 22px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+#ebook #rightRank ul li .rankImg{
+	float: left;
+	width: 258px;
+	border-bottom: 2px solid #ccc;
+	display: none;
+}
+#ebook #rightRank ul li .rankImg img{
+	float: left;
+	margin-right: 4px;
+}
+#ebook #rightRank ul li .rankTit{
+	float: left;
+	width: 258px;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: solid 2px #ccc;
+	font-size: 14px;
+}
+#ebook #rightRank li:last-child .rankImg,#ebook #rightRank li:last-child .rankTit{
+	border-bottom: none;
+}
+
+/*服装*/
+#clothing .clothBox{
+	height: 500px;
+	/*border: 1px solid #ccc;*/
+}
+#clothing .clothBox .contCenter>img{
+	width: 430px;
+}
+#clothing .clothBox .cloth-Conts .contCenter{
+	width: 430px;
+}
+
+/*家居*/
+#house .houseConts .leftCont{
+	width: 484px;
+	height: 500px;
+	border: 2px solid #ccc;
+}
+#house .houseConts .leftCont img{
+	width: 484px;
+	height: 500px;
+}
+#house .houseConts .rightCont{
+	width: 712px;
+	height: 504px;
+}
+#house .houseConts .rightCont div{
+	float: left;
+	border-right: 2px solid #ccc;
+	border-bottom: 2px solid #ccc;
+}
+#house .houseConts .rightCont .box178{
+	width: 176px;
+	height: 338px;
+	text-align: center;
+}
+#house .houseConts .rightCont .contImg a img{
+	width: 164px;
+	height: 221px;
+	margin-top: 43px;
+}
+#house .houseConts .rightCont .contImg2 a img{
+	width: 176px;
+	height: 162px;
+}
+#house .houseConts .rightCont .height164{
+	height: 162px;
+}
+/*推广商品*/
+#promotion .tit li{
+	width: 30px;	
+	font-size: 38px;
+	color: #CCCCCC;
+}
+
+#promotion .tit li.current{
+	background-color: transparent;
+	color: #FF6600;
+}
+#promotion .promotionConts{
+	margin-top: 10px;
+}
+#promotion .promotionConts .box240{
+	float: left;
+	width: 180px;
+	height: 250px;
+	padding: 25px 30px;
+}
+#promotion .promotionConts .box240 p{
+	margin-left: 18px;
+	margin-bottom: 10px;
+}
+#promotion .promotionConts .box240:hover{
+	background-color: #F3F3F3;
+}
+#promotion .promotionConts .box240 .icon{
+	background-position: -203px -200px;
+	text-indent: 30px;
+	height: 30px;
+}
+
+/*固定搜索栏*/
+#fixedSearch{
+	width: 100%;
+	height: 50px;
+	background-color: rgba(255,255,255,.8);
+	position: fixed;
+	top: 0;
+	/*z-index: 9999;*/
+}
+#fixedSearch{
+	display: none;
+}
+#fixedSearch #logoImg{
+	float: left;
+	width: 54px;
+	height: 40px;
+	background-position: -221px -423px;
+	margin: 3px 266px 0px 200px;
+}
+#fixedSearch #search{
+	float: left;
+	margin-top: 6px;
+}
+
+/*楼层跳转*/
+#floor{
+	position: fixed;
+	top: 210px;
+	left: 0;
+}
+#floor li{
+	width: 40px;
+	height: 40px;
+	background-color: #f2f2f2;
+	cursor: pointer;
+}
+#floor li span{
+	color: #fff;
+	font-size: 14px;	
+	position: relative;
+	left:40px;
+	top:10px;
+}
+#floor li:nth-of-type(1){
+	background-position-y:-440px;
+}
+#floor li:nth-of-type(2){
+	background-position-y: 0px;
+}
+#floor li:nth-of-type(3){
+	background-position-y: -40px;
+}
+#floor li:nth-of-type(4){
+	background-position-y: -160px;
+}
+#floor li:nth-of-type(5){
+	background-position-y: -200px;
+}
+#floor li:nth-of-type(6){
+	background-position-y: -320px;
+}
+#floor li:nth-of-type(7){
+	background-position-y: -240px;
+}
+#floor li:nth-of-type(8){
+	background-position-y: -520px;
+}
+

@@ -1,0 +1,115 @@
+/*页脚*/
+#footer{
+	position: relative;
+}
+#footer .aboutus{
+	height: 94px;
+	background-color: #f2f2f2;
+	border-top: 6px solid #FF6600;
+	text-align: center;
+}
+#footer .aboutus>ul{
+	width: 872px;
+	margin: 24px auto;
+}
+#footer .aboutus ul li{
+	float: left;
+	width: 138px;
+	height: 52px;
+	background: url(../images/footer_bg.png) no-repeat;
+	margin: 0px 30px;
+}
+#footer .aboutus ul li:nth-of-type(2){
+	background-position-y: -52px;
+}
+#footer .aboutus ul li:nth-of-type(3){
+	background-position-y: -104px;
+}
+#footer .aboutus ul li:nth-of-type(4){
+	background-position-y: -156px;
+}
+#footer .footerConts{
+	height: 300px;
+}
+#footer .footerConts>div{
+	position: relative;
+}
+#footer .footerConts .service{
+	margin-left: 232px;
+	margin-top: 20px;
+}
+#footer .footerConts .service>li{
+	width: 120px;
+	font-size: 14px;
+	line-height: 26px;
+	margin-right: 19px;
+	float: left;
+	text-align: center;	
+}
+#footer .footerConts .service>li h5{
+	font-size: 18px;
+}
+#footer .footerConts .service>li a{
+	color: #666;
+}
+#footer .footerConts .service>li a:hover{
+	color: #FF6600;
+}
+#footer .footerConts .icon{
+	width: 115px;
+	height: 83px;
+	background-position: -200px -300px;
+	position: absolute;
+	top: 20px;
+	right: 114px;
+}
+#footer .footerConts .copyright p{
+	margin-top: 20px;
+}
+/*返回顶部*/
+#footer #backTop{
+	cursor: pointer;
+	position: absolute;
+	top: -50px;
+	right: 58px;
+}
+/*二维码领劵*/
+#QRcode{
+	width: 40px;
+	height: 190px;
+	position: fixed;
+	top: 210px;
+	right: 0px;
+}
+#QRcode p{
+	/*display: inline-block;*/
+	width: 39px;
+	height: 44px;
+	background-position: -398px -350px;
+	position: absolute;
+	top: 0;
+}
+#QRcode p:nth-of-type(2){
+	width: 39px;
+	height: 101px;
+	background-position: -398px -398px;
+	position: absolute;
+	top: 40px;
+}
+#QRcode p:nth-of-type(2) i{
+	display: inline-block;
+	width: 0px;
+	height: 101px;
+	background-position: -400px -200px;
+	position: absolute;
+	right: 36px;
+	top: 1px;
+	
+}
+#QRcode p:nth-of-type(3){
+	width: 39px;
+	height: 40px;
+	background-position: -398px -500px;
+	position: absolute;
+	top: 140px;
+}

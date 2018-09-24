@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>用户登录</title>
+		<!--引入重置-->
+		<link rel="stylesheet" type="text/css" href="styles/reset.css" />
+		<!--引入公共-->
+		<link rel="stylesheet" type="text/css" href="styles/common.css" />
+		<!--引入js特效轮播-->
+		<link rel="stylesheet" type="text/css" href="styles/slider.css" />
+		<!--引入首页-->
+		<link rel="stylesheet" type="text/css" href="styles/cart.css" />
+	</head>
+
+	<body>
+		<!--页头-->
+		<div id="header">
+			<!--顶部背景-->
+			<div id="topbg">
+				<div class="box1200">
+					欢迎光临
+					<a href="">乐购</a>，请
+					<a href="">登陆</a>\
+					<a href="">注册</a>
+				</div>
+			</div>
+			<div class="box1200">
+				<!--主导航-->
+				<div id="mainNav" class="clear">
+					<div id="logobox" class="fl">
+						<div class="logo">
+							<p>登录</p>
+						</div>
+						<p id="categorayAll">全部商品分类<span>﹀</span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--模板内容-->
+		<div class="box1200">
+			<div id="cart">
+				<h2>全部商品  (<span>2</span>) </h2>
+				<!--头-->
+				<div id="cartHeader" class="clear">
+					<div class="box90">
+						<input type="checkbox" id="checkAll" />全选
+					</div>
+					<div class="box500">
+						<div>商品</div>
+					</div>
+					<div class="box140">
+						<div>单价</div>
+					</div>
+					<div class="box170">
+						<div>数量</div>
+					</div>
+					<div class="box130">
+						<div>小计</div>
+					</div>
+					<div class="box168">
+						<div>操作</div>
+					</div>
+				</div>
+				<!--商品-->
+				<div id="cartGoods" class="clear">
+					<!--商品1-->
+					<div class="goods">
+						<div class="box90">
+							<input type="checkbox" id="checkRow" />
+						</div>
+						<div class="box500">
+							<img src="images/demo-book.jpg" alt="" />
+							<p>花露水好用看得见</p>
+						</div>
+						<div class="box140">
+							<span>41.00</span>
+						</div>
+						<div class="box166 clear">
+							<input type="button" class="reduceNumber" value="-" />
+							<input type="text" class="buyNumber" value="10" />
+							<input type="button" class="addNumber" value="+" />
+						</div>
+						<div class="box130">
+							<span>41.00</span>
+						</div>
+						<div class="box168">
+							<a href="javascript:void(0)">删除</a>
+							<br />
+							<a href="javascript:void(0)" >收藏</a>
+						</div>
+					</div>
+					<!--商品2-->
+					<div class="goods">
+						<div class="box90">
+							<input type="checkbox" id="checkRow" />
+						</div>
+						<div class="box500">
+							<img src="images/1.png" alt="" />
+							<p>洗衣水好用看得见</p>
+						</div>
+						<div class="box140">
+							<span>81.00</span>
+						</div>
+						<div class="box166 clear">
+							<input type="button" class="reduceNumber" value="-" />
+							<input type="text" class="buyNumber" value="10" />
+							<input type="button" class="addNumber" value="+" />
+						</div>
+						<div class="box130">
+							<span>81.00</span>
+						</div>
+						<div class="box168">
+							<a href="javascript:void(0)">删除</a>
+							<br />
+							<a href="javascript:void(0)" >收藏</a>
+						</div>
+					</div>
+					<!--商品3-->
+					<div class="goods">
+						<div class="box90">
+							<input type="checkbox" id="checkRow" />
+						</div>
+						<div class="box500">
+							<img src="images/2.png" alt="" />
+							<p>甘露水好用看得见</p>
+						</div>
+						<div class="box140">
+							<span>441.00</span>
+						</div>
+						<div class="box166 clear">
+							<input type="button" class="reduceNumber" value="-" />
+							<input type="text" class="buyNumber" value="10" />
+							<input type="button" class="addNumber" value="+" />
+						</div>
+						<div class="box130">
+							<span>441.00</span>
+						</div>
+						<div class="box168">
+							<a href="javascript:void(0)">删除</a>
+							<br />
+							<a href="javascript:void(0)" >收藏</a>
+						</div>
+					</div>
+					<!--商品4-->
+					<div class="goods">
+						<div class="box90">
+							<input type="checkbox" id="checkRow" />
+						</div>
+						<div class="box500">
+							<img src="images/4.png" alt="" />
+							<p>刮胡刀好用看得见</p>
+						</div>
+						<div class="box140">
+							<span>1.00</span>
+						</div>
+						<div class="box166 clear">
+							<input type="button" class="reduceNumber" value="-" />
+							<input type="text" class="buyNumber" value="10" />
+							<input type="button" class="addNumber" value="+" />
+						</div>
+						<div class="box130">
+							<span>1.00</span>
+						</div>
+						<div class="box168">
+							<a href="javascript:void(0)">删除</a>
+							<br />
+							<a href="javascript:void(0)" >收藏</a>
+						</div>
+					</div>
+				</div>
+				<!--尾-->
+				<div id="cartFooter" class="marginTop20">
+					<div class="box90">
+						<input type="checkbox" id="checkAll" />全选
+					</div>
+					<div class="box500">
+						<div>删除选中商品</div>
+					</div>
+					<div class="box170">
+						<div>已选择 <span class="colorOrg font24"> 1 </span> 件商品</div>
+					</div>
+					<div class="box130">
+						<div>总价 <span class="colorOrg font24"> 41.00 </span> </div>
+					</div>
+					<div class="box168">
+						<a href="">去结算</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--页脚-->
+		<div id="footer">
+			<div class="footerConts">
+				<div class="box1200">
+					<!--版权-->
+					<div class="copyright">
+						<p class="textCenter">
+							公司简介 &emsp;|&emsp;Investor Relations&emsp;|&emsp;网站联盟&emsp;|&emsp;乐购招商&emsp;|&emsp;机构销售 &emsp;|&emsp;手机乐购 &emsp;|&emsp;官方Blog&emsp;|&emsp;热词搜索
+						</p>
+						<p class="textCenter">Copyright&nbsp; &copy; &nbsp;乐购网 &nbsp;2004-2016, &nbsp;All &nbsp;Rights &nbsp;Reserved</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--引入jq库-->
+		<script src="scripts/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<!--引入表单验证-->
+		<script src="scripts/jquery.validate.js" type="text/javascript" charset="utf-8"></script>
+		<!--引入自定义js-->
+		<script src="scripts/cart.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

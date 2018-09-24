@@ -1,0 +1,144 @@
+/*头部样式已抽取*/
+@import url("header.css");
+/*尾部样式已抽取*/
+@import url("footer.css");
+
+/*重置头部样式*/
+#header{
+	height: 130px;
+	border-bottom: 1px solid #ccc;
+	box-shadow: 1px 1px 1px 1px #ccc;
+}
+#header #mainNav #logobox .logo {
+	background: url(../images/LogoBG.png) no-repeat;
+}
+#header #mainNav #logobox .logo p {
+	position: relative;
+	top: 26px;
+	left: 130px;
+}
+
+/*登录*/
+#loginBG{
+	height: 500px;
+	background-color: #ff688c;
+	background-image: url(../images/bg1200-600.png);
+	background-repeat: no-repeat;
+}
+#loginBG .box1200{
+	position: relative;
+}
+#loginBG #loginCon{
+	width: 350px;
+	height: 370px;
+	background-color: #FFFFFF;
+	position: absolute;
+	right: 0;
+	top: 65px;
+}
+/*标题*/
+#loginBG #loginCon ul li{
+	float: left;
+	width: 175px;
+	height: 58px;
+	border-bottom: 1px solid #f6f6f6;
+	text-align: center;
+	line-height: 58px;
+	font-size: 20px;
+	cursor: pointer;
+}
+#loginBG #loginCon ul li.current{
+	font-weight: bold;
+	color: #FF6600;
+}
+/*内容一*/
+#loginBG #loginCon #loginConts .mobileLogin{
+	height: 290px;
+	margin-top: 30px;
+	/*display: none;*/
+	position: relative;
+}
+#loginBG #loginCon #loginConts .mobileLogin p{
+	margin-top: 30px;
+	color: #666666;
+}
+#loginBG #loginCon .mobileLogin img:nth-of-type(1){
+	padding: 10px;
+	border: solid 1px #F2F2F2;	
+	position: absolute;
+	/*left: 10px;*/
+	left: 95px;
+}
+
+#loginBG #loginCon .mobileLogin img:nth-of-type(2){
+	position: absolute;
+	right: 10px;
+	display: none;
+} 
+#loginBG #loginCon .mobileLogin>p{
+	position: absolute;
+	left: 100px;
+	bottom: 45px;
+}
+/*内容二*/
+#loginBG #loginCon #loginConts .pcLogin{
+	padding: 30px;
+	display: none;
+}
+#loginBG #loginCon #loginConts .pcLogin p{
+	margin-bottom: 20px;
+	color: #666666;
+	position: relative;
+}
+#loginBG #loginCon #loginConts .pcLogin #username,#loginBG #loginCon #loginConts .pcLogin p #btnLogin,#loginBG #loginCon #loginConts .pcLogin #pwd,#loginBG #loginCon #loginConts .pcLogin #btnLogin{
+	width: 290px;
+	height: 40px;
+	border: 1px solid #ccc;
+	text-indent: 39px;
+	outline: none;
+}
+
+#loginBG #loginCon #loginConts .pcLogin p #btnLogin{
+	border: none;
+	/*text-align: center;*/
+	font-size: 20px;
+	color: #FFFFFF;
+	background-color: #FF6600;
+	text-indent: 0;
+	
+}
+
+/*引入字体图标*/
+@font-face {
+	font-family:"taobaoFont";
+	src: url('../fonts/font_1451959379_8626566.eot'),
+        url('../fonts/font_1451959379_8626566.ttf'),
+        url('../fonts/font_1451959379_8626566.woff'),
+        url('../fonts/font_1451959379_8626566.svg')
+}
+#loginBG #loginCon #loginConts .pcLogin p span{
+	display: inline-block;
+	width: 39px;
+	height: 40px;
+	font-family: 'taobaoFont';
+	font-size: 20px;
+	color: red;
+	text-align: center;
+	line-height: 36px;
+	background-color: #D9D9D9;	
+	position: absolute;
+	top: 1px;
+	left: 0;
+}
+#loginBG #loginCon #loginConts .pcLogin p:nth-of-type(5){
+	height: 54px;
+	line-height: 54px;
+	font-size: 20px;
+	color: #FF6600;
+	border-top: 1px solid #ccc;
+	text-align: center;
+}
+
+
+
+

@@ -1,0 +1,90 @@
+/*头部样式已抽取*/
+@import url("header.css");
+/*尾部样式已抽取*/
+@import url("footer.css");
+
+/*重置头部样式*/
+#header{
+	height: 130px;
+	border-bottom: 1px solid #ccc;
+	box-shadow: 1px 1px 1px 1px #ccc;
+	margin-bottom: 40px;
+}
+#header #mainNav #logobox .logo {
+	background: url(../images/LogoBG.png) no-repeat;
+}
+#header #mainNav #logobox .logo p {
+	position: relative;
+	top: 26px;
+	left: 130px;
+}
+#header #mainNav>p{
+	font-size: 20px;
+	color: #666666;
+	margin-top: 20px;
+}
+#regForm{
+	width: 400px;
+	margin: 0 auto;
+}
+
+#regForm ul li{
+	width: 398px;
+	height: 42px;
+	border: 1px solid #ccc;	
+	margin-bottom: 40px;
+	position: relative;
+}
+#regForm label.error{
+	color: red;
+	position: absolute;
+	left: 21px;
+	top: 48px;
+}
+#regForm ul li i{
+	display: inline-block;
+	width: 130px;
+	line-height: 42px;
+	font-size: 20px;
+	color: #666666;
+	text-indent: 1em;
+}
+#regForm ul li input{
+	border: none;
+	outline: none;
+	height: 36px;
+	position: relative;
+	top: -2px;
+	font-size: 15px;
+}
+#regForm ul li input[name=mobileCode]{
+	width: 126px;
+}
+#regForm ul li input[name=btnSendCode]{
+	width: 134px;
+	height: 40px;
+}
+#regForm #btnRegister{
+	width: 400px;
+	height: 42px;
+	border: none;
+	background-color: #FF6600;
+	color: #fff;
+	font-size: 18px;
+	margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

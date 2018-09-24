@@ -1,0 +1,106 @@
+/*头部*/
+#header #topbg {
+	background-color: #000;
+	height: 28px;
+	color: #bfbfbf;
+	margin-bottom: 4px;
+}
+#header #topbg>div {
+	line-height: 28px;
+	text-align: right;
+}
+/*顶部超链接效果*/
+#header #topbg a {
+	color: #ff6600;
+}
+#header #topbg a:hover {
+	color: #ffbb00;
+}
+/*搜索*/
+#header #searchCart {
+	margin-bottom: 22px;
+}
+#search #keywords {
+	width: 390px;
+	height: 32px;
+	border: solid 2px #FF6600;
+}
+#search #btnSearch {
+	width: 50px;
+	height: 36px;
+	background-color: #FF6600;
+	border: solid 2px #FF6600;
+	background-position: -192px -6px;
+	margin-right: 36px;
+}
+/*购物*/
+#header #cart>ul li {
+	float: right;
+}
+#header #cart>ul .cartsp {
+	text-indent: 30px;
+	background-position: -297px -5px;
+}
+#header #cart>ul .cartsp,
+.order {
+	width: 98px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	background-color: #FF6600;
+	border: 1px solid #FF6600;
+}
+#header #cart>ul .cartsp a{
+	color: #FFFFFF;
+}
+#header #cart>ul .order {
+	font-size: 15px;
+	color: #9f9f9f;
+	border: 1px solid #ebebeb;
+	background-color: #CCCCCC;
+}
+/*主导航*/
+#header #mainNav #logobox {
+	width: 200px;
+	height: 112px;
+	background-color: #FF6600;
+	position: absolute;
+	top: 0px;
+}
+#header #mainNav #logobox .logo {
+	height: 82px;
+	background: url(../images/LogoBG.gif) no-repeat;
+	font-size: 24px;
+	color: #fff;
+}
+#header #mainNav #logobox .logo p {
+	position: relative;
+	top: 10px;
+	left: 120px;
+}
+#header #mainNav #logobox #categorayAll {
+	font-size: 16px;
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: bold;
+}
+#header #mainNav #logobox #categorayAll span {
+	position: relative;
+	top: 3px;
+	left: 15px;
+}
+#header #mainNav>ul {
+	margin-left: 200px;
+}
+#header #mainNav ul li {
+	float: left;
+}
+#header #mainNav ul li a {
+	color: #323232;
+	font-size: 17px;
+	font-weight: bold;
+	margin-left: 35px;
+}
+#header #mainNav ul li a:hover{
+	color: #f40;
+}

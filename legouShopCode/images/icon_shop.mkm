@@ -1,0 +1,23 @@
+<MKM version="2.0" imageFileUrl="file:///C:/Users/pc/Desktop/legouShopCode/images/icon_shop.png">
+  <Marks>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="309" y="23" textMaxWidth="100" offsetX="25" offsetY="10" text=""/>
+    <RectMark color="16711680" x="322" y="23" offsetX="0" offsetY="0"/>
+    <LengthMark direction="12" color="16711680" length="72" x="201" y="98"/>
+    <LengthMark direction="3" color="16711680" length="28" x="209" y="97"/>
+    <RectMark color="16711680" x="200" y="300" offsetX="0" offsetY="0"/>
+    <LengthMark direction="12" color="16711680" length="115" x="201" y="329"/>
+    <LengthMark direction="3" color="16711680" length="83" x="267" y="299"/>
+    <RectMark color="16711680" x="202" y="201" offsetX="0" offsetY="0"/>
+    <LengthMark direction="3" color="16711680" length="16" x="228" y="201"/>
+    <LengthMark direction="12" color="16711680" length="27" x="203" y="217"/>
+    <LengthMark direction="3" color="16711680" length="191" x="398" y="351"/>
+    <RectMark color="16711680" x="8" y="10" offsetX="0" offsetY="0"/>
+    <RectMark color="16711680" x="11" y="47" offsetX="0" offsetY="0"/>
+    <RectMark color="16711680" x="9" y="90" offsetX="0" offsetY="0"/>
+    <RectMark color="16711680" x="8" y="129" offsetX="0" offsetY="0"/>
+    <RectMark color="16711680" x="8" y="169" offsetX="0" offsetY="0"/>
+    <RectMark color="16711680" x="399" y="200" offsetX="0" offsetY="0"/>
+    <LengthMark direction="12" color="16711680" length="101" x="400" y="280"/>
+    <LengthMark direction="3" color="16711680" length="101" x="489" y="199"/>
+  </Marks>
+</MKM>
